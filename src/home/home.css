@@ -1,0 +1,103 @@
+/* Navbar styles */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1E90FF;
+    padding: 10px;
+    color: white;
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .menu a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+  }
+  
+  .icons {
+    display: flex;
+    align-items: center;
+  }
+  
+  .icons input {
+    margin-right: 10px;
+    padding: 5px;
+  }
+  
+  /* Slideshow styles */
+  .slideshow {
+    position: relative;
+    margin: 20px 0;
+    height: 200px;
+    background-color: #f0f0f0;
+  }
+  
+  .slide {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    font-size: 24px;
+    color: white;
+  }
+  
+  .dots {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  
+  .dot {
+    height: 10px;
+    width: 10px;
+    margin: 0 5px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    cursor: pointer;
+  }
+  
+  .dot.active {
+    background-color: black;
+  }
+  
+  /* Category styles */
+  .category {
+    text-align: center;
+    margin: 20px 0;
+  }
+  
+  .category-slider {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .category-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    width: 120px;
+    height: 120px;
+    margin: 0 10px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .category-item .icon {
+    font-size: 40px;
+  }
+  
+  button {
+    background: none;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  
